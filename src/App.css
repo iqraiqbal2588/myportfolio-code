@@ -1,0 +1,139 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* src/App.css */
+body {
+  padding: 20px; /* Adjust the padding value as needed */
+}
+
+.App {
+ 
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-image {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 50%;
+  margin-bottom: 20px;
+  display: block; /* Remove extra space below the image */
+  margin-left: auto; /* Center the image horizontally */
+  margin-right: auto; /* Center the image horizontally */
+  border: 5px solid #fff; /* Add a white border for better contrast */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.profile-image:hover {
+  transform: scale(1.1); /* Scale the image slightly on hover */
+}
+
+
+
+.name {
+  font-size: 22px;
+  color: red;
+}
+
+.description {
+  font-size: 18px;
+  color: black;
+  font-weight: 800;
+}
+.marginDiv {
+  margin-left: 100px;
+}
+.ui-ux-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  color: red;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+
+.app-image {
+  width: 230px;
+  height: 480px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.app-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* src/components/AboutMe.css */
+.about-me-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.intro-section {
+  text-align: center;
+}
+
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-section {
+  margin-top: 20px;
+}
+
+/* Add more styling as needed */
